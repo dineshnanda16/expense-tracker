@@ -1,0 +1,46 @@
+.expense-list {
+  margin-top: 20px;
+}
+
+.expense-list h2 {
+  margin-bottom: 10px;
+  color: #007bff; /* Blue heading */
+}
+
+.expense-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #007bff; /* Blue border */
+}
+
+.expense-list li div {
+  display: flex;
+  gap: 10px;
+}
+
+.expense-list button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expense-list button:nth-child(1) {
+  background-color: #ffc107; /* Yellow button */
+  color: #000;
+}
+
+.expense-list button:nth-child(2) {
+  background-color: #dc3545; /* Red button */
+  color: #fff;
+}
+
+.expense-list button:hover {
+  opacity: 0.8;
+}
